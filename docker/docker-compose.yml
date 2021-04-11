@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  exemplo_database:
+    build: ./mysql
+    container_name: exemplo_database
+    ports:
+      - 3306:3306
